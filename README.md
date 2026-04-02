@@ -6,7 +6,7 @@ A professional-grade RESTful API designed to automate the discovery and risk-ass
 In a modern enterprise, "you cannot protect what you cannot see." This API serves as a centralized source of truth for hardware assets, automatically flagging legacy systems that pose a security risk to the organization.
 
 ## 🛠️ Tech Stack & Architecture
-* **Java 17 & Spring Boot 3**: For building a high-performance, scalable backend.
+* Java 17 & Spring Boot 4.05 : For building a high-performance, scalable backend.
 * **Spring Data JPA + MySQL**: For persistent, structured asset storage.
 * **Jakarta Validation**: Implementing **RegEx-based Data Sanitization** for IP addresses (IPv4).
 * **DTO Pattern**: Decoupling internal Entities from external API requests to prevent **Mass Assignment Vulnerabilities**.
